@@ -41,20 +41,24 @@
 3. Establishing a Clear Folder Structure
    A well-organized folder structure is the backbone of a maintainable Angular application. It helps developers quickly locate files and understand how different parts of the app relate to each other.
 
-  src/                  
+ src/                  
     app/
       core/
-        services/
-          (eg)auth.service.ts
-        guards/
-          (eg)auth.guard.ts
-        interceptors/
-          (eg)token.interceptor.ts
-      shared/(common components which used in the application)
-        components/
-        button/
-        loader/
-      pipes/
+        auth/
+          auth.component.ts
+          auth.service.ts
+          guards/
+            (eg)auth.guard.ts
+          interceptors/
+             token.interceptor.ts
+             GlobalError.interceptor.ts
+          pipes/
+             (eg)format.pipe.ts
+       shared/(common components which used in the application)
+         components/
+           button/
+           loader/
+        pipes/
         date.pipe.ts
       features/
        (eg)product/

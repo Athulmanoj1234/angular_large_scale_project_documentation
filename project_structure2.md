@@ -16,6 +16,8 @@
 │   │   ├── components
 │   │   │   └── button/
 │   │   │   └── input/
+            └── server-error/
+                └── 500.error.ts
 │   │   ├── directives
 │   │   │   └── debounce.directive.ts
 │   │   ├── pipes
@@ -45,6 +47,8 @@
 │   │   │   │   └── product.service.ts
 │   │   │   ├── products.module.ts
 │   │   │   └── products-routing.module.ts
+        ├── not-found
+│   │       └── 404.error.ts
 │   │   └── state
 │   │       ├── reducers
 │   │       │   └── auth.reducer.ts
